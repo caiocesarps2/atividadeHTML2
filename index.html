@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aquaveterinária - Cuidados Especializados para Peixes</title>
+</head>
+<body>
+    <div id="nav-container">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#horarios">Horários</a></li>
+                <li><a href="#form-contato" class="contato">Entre em Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="pagina-inicial">
+        <div class="bg-color">
+            <div class="text-container">
+                <h1>Aquaveterinária</h1>
+                <h2>Cuidados Especializados para Peixes</h2>
+            </div>
+        </div>
+    </div>
+    <div class="sobre-nos" id="sobre">
+        <div class="texto-sobre">
+            <h2>Sobre nós</h2>
+            <p>A <b>Aquaveterinária</b> é uma clínica médica veterinária especializada no cuidado e tratamento de peixes ornamentais e de espécies aquáticas. Contamos com uma equipe de veterinários especializados em animais aquáticos, oferecendo diagnósticos precisos e tratamentos inovadores. Nosso foco é garantir a saúde e bem-estar de peixes de todas as espécies, oferecendo desde consultas de rotina até procedimentos cirúrgicos e cuidados com doenças específicas.
+            A clínica oferece também serviços de aconselhamento para donos de aquários, como a criação de ambientes adequados e cuidados com a alimentação de peixes.</p>
+        </div>
+    </div>
+    <div class="horarios" id="horarios">
+        <div id="table-container">
+            <h2>Horários de Atendimento</h2>
+            <table style="width:500px" height="120" border="1">
+                <thead>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clínica geral</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Oftalmologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="contato-form" id="form-contato">
+        <div id="content-form">
+            <h2>Entre em contato!</h2>
+            <form action="POST">
+                <label for="nome">Nome <span>*</span></label>
+                <input type="text" required name="nome" id="nome">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" name="email" id="email" required>
+                <label for="assunto">Assunto <span>*</span></label>
+                <input type="text" name="assunto" id="assunto" required>
+                <label for="mensagem">Mensagem <span>*</span></label>
+                <textarea name="mensagem" id="mensagem" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Todos os direitos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    scroll-behavior: smooth;
+}
+
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 95%;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #123352;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav li{
+    list-style: none;
+    color: #fff;
+    opacity: .8;
+    transition: opacity 200ms ease-in-out;
+}
+
+nav a:hover,
+nav li:hover,
+nav .contato:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.contato{
+    background-color: #1b5081;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.pagina-inicial{
+    background-image: url(/img/digital-aquarium-with-artificial-fish-solid-color-background-4k-ultra-hd_964851-140759.avif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagina-inicial h1{
+    font-size: 80px;
+    color: #fff;
+}
+
+.pagina-inicial h2{
+    text-align: center;
+    color: #ddd;
+}
+
+.bg-color{
+    background-color: #0f25397e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #0F2539;
+    color: #eee;
+}
+
+.texto-sobre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-sobre h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto-sobre p{
+    font-size: 20px;
+    line-height: 35px;
+    width: 80%;
+    text-align: justify;
+}
+
+.horarios{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #123352;
+    color: #eee;
+}
+
+#table-container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    background-color: #0F2539;
+    color: #eee;
+    padding: 10px;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
+tbody{
+    background-color: #EEE;
+    color: #0F2539;
+}
+
+.contato-form{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F2539;
+    color: #eee;
+}
+
+#content-form h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content-form form{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#content-form input{
+    padding: 8px;
+    border: lightgray;
+    border-radius: 5px;
+
+}
+
+#content-form form span{
+    color: red;
+}
+
+input[type="submit"]{
+    background-color: #1b5081;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .8;
+    transition: opacity 200ms ease-in-out;
+    color: #eee;
+}
+
+input[type="reset"]{
+    background-color: darkred;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .8;
+    transition: opacity 200ms ease-in-out;
+    color: #eee;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #123352;
+    color: #eee;
+}
